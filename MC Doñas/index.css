@@ -1,0 +1,358 @@
+body{
+    background-image: url(img/depositphotos_128129988-stock-illustration-hand-drawn-vector-seamless-fast.jpg);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    background-image: linear-gradient(#FBA519, #EA5F51);
+    overflow: hidden;
+}
+
+.logomc{
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 250px;
+}
+
+ul{
+    margin: 0;
+    width: 100%;    
+    height: 100px;
+    display: flex;
+    list-style: none;
+    overflow: hidden;
+
+}
+
+li{
+    padding-top: 30px;
+    text-align: center;
+    height: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    -webkit-transition: all .7s;
+}
+
+a{
+    text-decoration: none;
+}
+
+.a-menu{    
+    color:black;
+    font-size: 32px;
+}
+
+.li-uno:hover{
+    background-color: aqua;
+}
+
+.li-dos:hover{
+    background-color: brown;
+}
+
+.li-tres:hover{
+    background-color: cornflowerblue;
+}
+
+.li-cuatro:hover{
+    background-color: darkcyan;
+}
+
+.fl{
+    margin-top: -15px;
+    width: 70px;
+}
+
+.luabcs{
+    margin-top: -15px;
+    width: 70px;
+}
+
+.contenedor{
+    width: 80%;
+    height: 3100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 5px solid #000;
+    border-radius: 10px;
+    align-content: center;    
+    background-image: linear-gradient(#3B6CF3, #EA5F51);
+    
+}
+
+.titulo{
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Abril Fatface', cursive;
+    background-image: linear-gradient(#FBA519, #EA5F51);
+}
+
+.n1{
+    display: flex;
+    margin: 0 auto;
+}
+
+.mcdoña{
+    width: 250px;
+    height: 200px;
+    margin-left: 40px;
+    margin-top: 70px;
+}
+
+.mcdonas1{
+    width: 80%;
+    height: 550px;
+    margin-top: 30px;
+    margin-left: 10%;
+}
+
+.noticia{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 45px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+    background-image: linear-gradient(#36D82D, #EA5F51);
+}
+
+.noticia1{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 45px;
+    font-size: 25px;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contact-us{
+    float: right;
+    width:85%;
+    display: flex;
+    margin-top: 35px;
+}
+
+.fa-envelope{
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.fa-facebook-f{
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.fa-twitter{
+   font-size: 20px;
+    margin-left: 25px; 
+}
+
+.fa-phone{
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.fa-map-marker-alt{
+  font-size: 25px;  
+}
+
+@media screen and (max-width:1124px){
+    .logomc{
+        margin-left: 5px;
+    }
+    
+    .contenedor{
+        height: 2200px;
+    }
+    
+    .titulo{
+        font-size: 40px;
+    }
+    
+    .noticia{
+        font-size: 20px;
+    }
+    
+    .noticia1{
+        font-size: 20px;    
+    }
+    
+    .mcdonas1{
+        height: 300px;
+    }
+    
+    .contact-us{
+        margin: 0 auto;
+        margin-top: 45px;
+    }
+    
+    .fa-envelope{
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    
+    .fa-facebook-f{
+        font-size: 15px;
+        margin-left: 25px;
+    } 
+    
+    .fa-map-marker-alt{
+      font-size: 15px;  
+    }
+    
+    .fa-phone{
+        font-size: 15px;
+        margin-left: 25px;
+    }
+    
+    .fa-twitter{
+        font-size: 15px;
+        margin-left: 25px; 
+    }
+}
+
+@media screen and (max-width:1083px){
+    ul{
+        width: 72%;
+    }
+    .logomc{
+        margin-left: 5px;
+    }
+    
+    .contenedor{
+        height: 1950px;
+    }
+    
+    .titulo{
+        font-size: 40px;
+    }
+    
+    .noticia{
+        font-size: 15px;
+    }
+    
+    .noticia1{
+        font-size: 15px;    
+    }
+    
+    .mcdonas1{
+        height: 300px;
+    }
+    
+    .contact-us{
+        margin: 0 auto;
+        margin-top: 45px;
+        width: 100%;
+        margin-left: 50px;
+        float: left;
+    }
+    
+    .fa-envelope{
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    
+    .fa-facebook-f{
+        font-size: 15px;
+        margin-left: 25px;
+    } 
+    
+    .fa-map-marker-alt{
+      font-size: 15px;  
+    }
+    
+    .fa-phone{
+        font-size: 15px;
+        margin-left: 25px;
+    }
+    
+    .fa-twitter{
+        font-size: 15px;
+        margin-left: 25px; 
+    }
+    
+    .a-menu{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:930px){
+    ul{
+        width: 70%;
+    }
+    .logomc{
+        margin-left: 5px;
+    }
+    
+    .contenedor{
+        height: 1950px;
+    }
+    
+    .titulo{
+        font-size: 40px;
+    }
+    
+    .noticia{
+        font-size: 15px;
+    }
+    
+    .noticia1{
+        font-size: 15px;    
+    }
+    
+    .mcdonas1{
+        height: 300px;
+    }
+    
+    .contact-us{
+        margin: 0 auto;
+        margin-top: 45px;
+        width: 100%;
+        margin-left: 50px;
+        float: left;
+    }
+    
+    .fa-envelope{
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    
+    .fa-facebook-f{
+        font-size: 15px;
+        margin-left: 25px;
+    } 
+    
+    .fa-map-marker-alt{
+      font-size: 15px;  
+    }
+    
+    .fa-phone{
+        font-size: 15px;
+        margin-left: 25px;
+    }
+    
+    .fa-twitter{
+        font-size: 15px;
+        margin-left: 25px; 
+    }
+    
+    .a-menu{
+        font-size: 18px;
+    }
+}
